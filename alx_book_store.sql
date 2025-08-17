@@ -8,15 +8,15 @@ CREATE TABLE Authors (
 -- Create customers table
 CREATE TABLE Customers (
     customer_id INT PRIMARY KEY,
-    customer_name VARCHAR (215) NOT NULL,
-    email VARCHAR (215),
+    customer_name VARCHAR(215) NOT NULL,
+    email VARCHAR(215),
     address TEXT
 );
 
 -- Create books table
 CREATE TABLE Books (
     book_id INT PRIMARY KEY,
-    title VARCHAR (130) NOT NULL,
+    title VARCHAR(130) NOT NULL,
     author_id INT,
     publication_date DATE,
     price DOUBLE,
